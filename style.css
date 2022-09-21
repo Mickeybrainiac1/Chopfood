@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*navbar style*/
+.navbar{
+    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    /* position: fixed; */
+    top: 0;
+
+}
+
+.navbar-container{
+    display: flex;
+    max-width: 1500px;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+.navbar-logo{
+    color: #fff;
+    justify-self: start;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 32px;
+    /* align-content: center; */
+    display: flex;
+}
+
+.nav-menu{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 60vw;
+    justify-content: end;
+    margin-right: 32px;
+}
+
+.nav-item{
+    height: 80px;
+}
+
+.nav-links{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    height: 100%;
+}
+
+.nav-links:hover{
+    border-bottom: 4px solid #f2a93b;
+}
+
+/* hero section */
+.hero-container{
+    background: url(images/8.jpg);
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+
+h1.home__text{
+    font-size: 35px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #ffff;
+}
+
+h2.home__text{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 800;
+    color: #ffff;
+}
+
+.home__meta{
+    padding: 25px 400px;
+}
+
+.button{
+    text-decoration: none;
+    text-align: center;
+    background: #f2a93b;
+    color: #fff;
+    padding: 12px 53px;
+    border-radius: 50px;
+    border: none;
+    font: 20px Arial, Helevetica, Sans-serif;
+    font-weight: bold;
+}
+
+.button:hover{
+    color: black;
+}
+
+.about{
+    background: #232323;
+}
+
+.container{
+    width: 82%;
+    margin: 0px auto;
+    padding: 70px;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: left;
+    overflow: hidden;
+}
+
+.col__2{
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+}
+
+img.about__img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+h1.about__heading{
+    margin-top: 30px;
+    font-weight: 800;
+    text-align: start;
+    font-size: 40px;
+    color: #f2a93b;
+}
+
+.p__color{
+    color: rgba(198, 201, 216, 0.75);
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.product{
+    padding-bottom: 100px;
+    background-color: #232323;
+    text-align: center;
+}
+
+.product h1{
+    color: #f2a93b;
+    margin-bottom: 30px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: auto;
+}
+
+.cardBox{
+    width: 350px;
+    height: 500px;
+    background-color: #393939;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.cardBox .cardImage{
+    width: 100%;
+    height: 250px;
+}
+
+.cardImage:hover img{
+    transform: translateY(15%);
+}
+
+.cardBox .cardImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    transition: all 2s ease;
+}
+
+.cardContent{
+    font-size: 25px;
+    line-height: 1.5;
+    color: #fff;
+    margin-top: 40px;
+}
+
+.cardContent .buttons{
+    padding: 10px;
+    border-radius: 20px;
+    width: 10vw;
+    background-color: #f2a93b;
+    font-weight: 800;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.row{
+    display: flex;
+    background-color: #232323;
+}
+
+.contact__img{
+    margin-right: 100px;
+}
+
+.contact__meta, h1{
+    background-color: #232323;
+    margin-right: 100px;
+    color: #f2a93b;
+    line-height: 5vh;
+}
+
+.contact__meta p{
+    color: #fff;
+}
+
+input[type="text"]{
+    width: 150%;
+    border: 2px solid;
+    height: 5vh;
+    display: flex;
+}
+
+::placeholder{
+    
+}
+
+Textarea{
+    width: 150%;
+    height: 20vh;
+}
+
